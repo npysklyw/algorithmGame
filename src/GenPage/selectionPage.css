@@ -1,0 +1,107 @@
+
+.ant-dropdown-trigger {
+    color: white;
+    font-size: larger;
+}
+
+.options-container{
+    /* background-color: #10072e; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    max-width: max-content;
+}
+
+.Menu {
+    color: white;
+}
+
+.submit {
+    /* background-color: rgb(52, 123, 214); */
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #9c27b0, #e040fb);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    position: relative;
+    justify-content: center;
+    margin: auto;
+}
+
+.sort-btn-container{
+    /* background-color: firebrick ; */
+}
+
+.submit:hover {
+    transition-duration: 1s;
+    background: linear-gradient(to right, #0d043f, #10072e);
+    cursor: pointer;
+}
+
+.submit:active {
+    top: -1px;
+}
+
+h1 {
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+}
+
+.bar-left   {
+    height: 200px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.barDiv {
+    padding-left: 30px;
+    padding-right: 30px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+.sign {
+    padding-top: 40px;
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.op {
+    color: #8c55aa;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.dropdown {
+    padding: 10px;
+}
+
+.expand{
+    color: white;
+}
+
+.expandDiv{
+    justify-content: center;
+    display: flex;
+}
+
+.selection-box  {
+    width: 200px;
+    
+}
+

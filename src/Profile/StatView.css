@@ -1,0 +1,14 @@
+.stat-row-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #e040fb;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.stat-row-container > label {
+  width: 25%;
+  text-align: center;
+}

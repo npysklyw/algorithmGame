@@ -1,0 +1,2 @@
+# Heroku
+git push heroku `git subtree split --prefix api main`:main --force

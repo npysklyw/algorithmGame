@@ -1,0 +1,66 @@
+.listBlocks {
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+    padding-inline-start: 0px;
+
+}
+
+.listBlocks li {
+    margin: 1px;
+}
+
+.listBlocks li:hover {
+    filter: brightness(85%);
+    transition-property: filter;
+    transition-duration: 0.3s;
+}
+
+.listBlocks .block {
+    background-color: turquoise;
+    color: #282c34;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0 2px;
+    text-align: center;
+    transition-duration: 150ms;
+    transition-property: height;
+    transition-timing-function: ease-in;
+}
+
+.lives{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70px;
+    min-height: 30px;
+    margin: auto;
+    /* background-color: purple; */
+}
+
+.lives * {
+    color: rgb(227,27,35);
+    font-size: 20px;
+}
+
+.prev-next-container{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: green; */
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.lvl4{
+    /* background-color: yellow; */
+}
+
+.game-lost-pop-up * {
+    color: black;
+}
+
+.pop-up-content {
+    color: black;
+}

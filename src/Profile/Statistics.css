@@ -1,0 +1,38 @@
+.stats-container {
+  width: 75%;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.stat-header-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.stat-header-container > label {
+  color: black;
+  font-weight: bold;
+}
+
+#backBtn
+{
+  border-radius: 5em;
+  color: #fff;
+  background: linear-gradient(to right, #9c27b0, #e040fb);
+  border: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 13px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+

@@ -1,0 +1,68 @@
+{
+    "name": "calc-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@testing-library/jest-dom": "^5.14.1",
+        "@testing-library/react": "^12.0.0",
+        "@testing-library/user-event": "^13.2.1",
+        "antd": "^4.18.5",
+        "axios": "^0.25.0",
+        "json-loader": "^0.5.7",
+        "prettier": "^2.5.1",
+        "react": "^17.0.2",
+        "react-beautiful-dnd": "^13.1.0",
+        "react-dom": "^17.0.2",
+        "react-expand-animated": "^1.0.2",
+        "react-icons": "^4.3.1",
+        "react-idle-timer": "^4.6.4",
+        "react-router-dom": "^6.2.1",
+        "react-scripts": "5.0.0",
+        "use-sound": "^4.0.1",
+        "web-vitals": "^2.1.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "start-api": "cd api && pipenv run flask run",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "prettier": {
+        "arrowParens": "always",
+        "bracketSameLine": false,
+        "bracketSpacing": true,
+        "embeddedLanguageFormatting": "off",
+        "htmlWhitespaceSensitivity": "css",
+        "insertPragma": false,
+        "jsxSingleQuote": false,
+        "printWidth": 80,
+        "proseWrap": "preserve",
+        "quoteProps": "as-needed",
+        "requirePragma": false,
+        "semi": true,
+        "singleQuote": false,
+        "trailingComma": "es5",
+        "tabWidth": 2,
+        "vueIndentScriptAndStyle": false
+    },
+    "proxy": "http://0.0.0.0:5000"
+}

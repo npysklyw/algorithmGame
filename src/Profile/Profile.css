@@ -1,0 +1,41 @@
+#profile{
+    display: flex;
+    justify-content: center ;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.dataframe{
+    display: flex;
+    justify-content: center;
+}
+
+.data-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.data-container > * {
+  width: max-content;
+  padding: 5px;
+  border: 1px solid #e040fb;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+p {
+  text-transform: uppercase;
+  color:  #e040fb;
+}
+
+i {
+  font-weight: normal;
+  color: black;
+}
+
+h1{
+  color: white;
+}

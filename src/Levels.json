@@ -1,0 +1,46 @@
+{
+    "levels": {
+        "1" : {
+            "size" : 10,
+            "min": 1,
+            "max" : 20,
+            "isMovable" : false,
+            "tutorial" : true
+        },
+        "2" : {
+            "size" : 10,
+            "min" : 1,
+            "max" : 20,
+            "isMovable" : true,
+            "tutorial" : true
+        },
+        "3" : {
+            "size" : 10,
+            "min" : 1,
+            "max" : 20,
+            "isMovable" : true,
+            "tutorial" : true
+        },
+        "4" : {
+            "size" : 20,
+            "min" : 1,
+            "max" : 50,
+            "isMovable" : true,
+            "tutorial" : true
+        },
+        "5" : {
+            "size" : 50,
+            "min" : 1,
+            "max" : 100,
+            "isMovable" : true,
+            "tutorial" : true
+        },
+        "6" :  {
+            "size" : null,
+            "min" : 1,
+            "max" : null,
+            "isMovable" : true,
+            "tutorial" : false
+        }
+    }
+}

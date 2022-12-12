@@ -1,0 +1,45 @@
+h1 {
+    color: white;
+}
+
+.App {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ), url('https://influence.digital/wp-content/uploads/2021/12/algorithm.jpeg');
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    margin: 10px;
+    width: 200px;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #9c27b0, #e040fb);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+#title {
+    color: white;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    font-size: 40px;
+    text-shadow: white 0px 0px 8px;
+}
